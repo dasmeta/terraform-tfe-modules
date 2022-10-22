@@ -1,0 +1,16 @@
+aws-account-root:
+  source: dasmeta/aws-account:v4.3.2
+  vpc:
+    vpn: true
+    cidr: .....
+
+aws-account-dev:
+  source: dasmeta/aws-account
+  vpc:
+    cidr: .....
+    peerings: [aws-account-root]
+
+aws-account-prod:
+  vpc:
+    cidr: .....
+    peerings: [aws-account-root]
