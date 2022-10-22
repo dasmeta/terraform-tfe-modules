@@ -1,0 +1,4 @@
+cluster-1:
+  source: dasmeta/aws-environment
+  account: aws-account-dev
+  depends: ["aws-account-root"]

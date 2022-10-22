@@ -1,0 +1,5 @@
+cluster-1:
+  source: dasmeta/product-level-resources-1
+  environment: cluster-1
+  account: aws-account-dev
+  depends: ["aws-account-root"]
