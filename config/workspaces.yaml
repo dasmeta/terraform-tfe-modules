@@ -1,0 +1,22 @@
+workspace1:
+  tag_names:
+    - dev
+  terraform_variables:
+    env:
+      value: dev
+    backup_retention_days:
+      value: 7
+    component:
+      value: aws_backup
+    region:
+      value: 'eu-east-1'
+  git: dasmeta/repo1
+  git_branch: main
+workspace2:
+  tag_names:
+    - prod
+  terraform_variables:
+    env:
+      value: dev
+  git:  dasmeta/repo2
+  git_branch: main

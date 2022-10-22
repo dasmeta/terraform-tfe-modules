@@ -1,0 +1,4 @@
+---
+AWS_Credentials_dev:
+  assign_tags:
+    - aws
