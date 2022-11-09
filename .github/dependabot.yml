@@ -1,0 +1,11 @@
+version: 2
+
+updates:
+  - package-ecosystem: "terraform"
+    directory:
+      - "modules/"
+      - "modules/tfc_variable_set"
+      - "modules/tfc_workspace"
+      
+    schedule:
+      interval: "daily"
