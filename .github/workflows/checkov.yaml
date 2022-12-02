@@ -18,7 +18,6 @@ jobs:
         path:
           - modules/tfc_variable_set
           - modules/tfc_workspace
-          - /
      
     steps:
     - uses: dasmeta/reusable-actions-workflows/checkov@main
